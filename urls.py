@@ -20,3 +20,5 @@ urlpatterns = [
     path('Ingredientes/<int:idin>',views.ingredientesGetId,name='ingredientesGetId'),
     path('Ingredientes/update/<int:in_id>',views.ingredientesUpdate,name='ingredientesUpdate'),
 ]
+
+# Borrar lena de codigo
